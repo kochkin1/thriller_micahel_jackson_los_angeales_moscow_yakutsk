@@ -1,0 +1,33 @@
+switch (value) {
+                    case "01d": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon1));
+                        break;
+                    case "01n": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon1));
+                        break;
+                    case "02d": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon2));
+                        break;
+                    case "02n": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon2));
+                        break;
+                    case "03d": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon3));
+                        break;
+                    case "03n": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon3));
+                        break;
+                    case "04d": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon4));
+                        break;
+                    case "04n": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon4));
+                        break;
+                    case "09d": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon5));
+                        break;
+                    case "09n": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon5));
+                        break;
+                    case "10d": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon6));
+                        break;
+                    case "10n": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon6));
+                        break;
+                    case "11d": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon7));
+                        break;
+                    case "11n": imageView.setImageDrawable(getResources().getDrawable(R.drawable.icon7));
+                        break;
+
+                    default:
+                        imageView.setImageDrawable(getResources().getDrawable(R.drawable.weather));
+                }
